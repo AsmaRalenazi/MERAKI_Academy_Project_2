@@ -1,7 +1,26 @@
-body{
+/* body{
     background:radial-gradient(circle,rgb(238, 201, 238),#dac0a7);
+} */
+#img1{
+    display: grid;
+    grid-template-columns:repeat(3, 50px);
+grid-template-rows:repeat(1, 1fr);
+gap:6px 600px;
+justify-content:center; 
+align-items: center;
+float: left;
+padding-top:50px;
 }
-
+#welcome{
+    font-size:20px;
+    font-family:"Calibri";
+    align-items: center;
+    padding-left:600px;
+    color: black;
+    /* padding-top:10px ;
+    padding-bottom:0px; */
+    margin-bottom:auto ;
+} 
 .naveList{ 
     align-items: center;
     margin:10px;
