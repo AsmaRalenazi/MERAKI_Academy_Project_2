@@ -144,7 +144,7 @@ box-shadow:2px 2px 30px rgba(0,0,0,0,0.1) ;
 background-color: #FFFFFF;
 border-radius:5px ;
 }
-.p-box p{
+.p-box .p1{
     color: #4d4d4d70;
     font-size:15px;  
     float: right;
@@ -160,8 +160,10 @@ border-radius:5px ;
     text-decoration: none;
 
 }
-.x1{
+.p-box .x1{
 float: right;
 color:black;
+margin-right:10px;
+font-family:"Calibri" ;
 
 }
