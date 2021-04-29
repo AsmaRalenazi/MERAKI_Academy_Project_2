@@ -3,16 +3,24 @@ background:radial-gradient(circle,rgb(238, 201, 238),#dac0a7);
 background-image:url("oo1.png") ;
 } */
 #img1{
-display: grid;
-grid-template-columns:repeat(2, 50px);
-grid-template-rows:repeat(1, 1fr);
-gap:10px 700px;
 justify-content:center; 
 align-items: center;
 float: left;
-padding-top:0px;
-margin-left:70px ;
+margin-right:300px ;
 }
+#img2{
+justify-content:center; 
+align-items: center;
+float:right;
+margin-left:800px;
+top:0px;
+}
+/* #all{
+display: grid;
+grid-template-columns:repeat(2, 50px);
+grid-template-rows:repeat(1, 1fr);
+gap:10px 700px;   
+} */
 #welcome{
 padding-top: 0px;
 font-size:40px;
