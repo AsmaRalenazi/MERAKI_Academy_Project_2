@@ -146,9 +146,19 @@ border-radius:5px ;
 .p-box p{
     color: #4d4d4d70;
     font-size:15px;  
+    float: right;
+    padding-right:10px;
 }
 .price{
     color:rgb(204, 53, 53);
     font-family:"Calibri";
-    font-size: 15px;
+    font-size:16px;
+    float: right;
+    margin-top: 100px;
+    margin-left:90px;
+    text-decoration: none;
+}
+.x1{
+float: right;
+color: black;
 }
