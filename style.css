@@ -169,7 +169,7 @@ width: 100%;
     display:grid;
     grid-template-columns:repeat(3,300px);
     grid-template-rows:repeat(2,500px);
-    gap:60px 60px;
+    gap:10px 60px;
     justify-content:center; 
     float: right;
     text-align: justify;
@@ -271,6 +271,21 @@ width: 100%;
     height: 239px;
     margin-bottom: 24px;
 }
-.p2imge_AVALIERI2C{
+.Sara_MillerC{
+    width: 219px;
+    height: 239px;
+    margin-bottom: 24px;
+}
+.p3imge_Sara_Miller{
+    float: right;
+    color: black;
+    margin-right: 10px;
+    font-family: "Calibri";
+}
 
+.p2imge_Sara_Miller2C{
+color: #4d4d4d70;
+    font-size:18px;
+    float: right;
+    padding-right: 10px;
 }
