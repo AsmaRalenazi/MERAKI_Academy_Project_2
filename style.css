@@ -151,6 +151,10 @@ border: 2px solid yellow;
     flex-direction: column;
 
 }
+/* .button_home{
+    width: 20%;
+    height: 30%;
+} */
 
 .underheaderp2C{
 width: 100%;
@@ -160,6 +164,18 @@ width: 100%;
     padding-top: 30px;
     font-family: "Calibri";
 }
+
+.all_productsC{
+    display:grid;
+    grid-template-columns:repeat(3,300px);
+    grid-template-rows:repeat(1,500px);
+    gap:60px 60px;
+    justify-content:center; 
+    float: right;
+    text-align: justify;
+}
+
+
 .AVALIERIC{
     width: 219px;
     height: 239px;
@@ -180,7 +196,7 @@ width: 100%;
 .p-box{
     display: flex;
     width: 247px;
-    height: 405px;
+    height: 375px;
     justify-content: center;
     text-align: center;
     flex-direction: row;
