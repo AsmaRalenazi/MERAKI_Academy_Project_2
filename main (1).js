@@ -7,13 +7,18 @@ $(document).ready( function () {
 });
 
 const buttonNext=$("#tswaqi_famel");
+// buttonNext.on("mouseover",hander)
+buttonNext.mouseover(function() {
+    $('.tswaqi_famel').css('cursor', 'pointer');
 
+});
 buttonNext.click(()=>{
     $(`#container`).hide();
     $(`#p2Contaner`).show();
     
     
 });
+
 
 
 const homepage=$("#homep2");

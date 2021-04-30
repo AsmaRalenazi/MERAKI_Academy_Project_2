@@ -7,7 +7,6 @@
 .p1container{
 width: 100%;
 height: 100vh;
-border: 2px solid black;
 display: flex;
 flex-direction: column;
 }
@@ -16,7 +15,6 @@ flex-direction: column;
 .p1header{
 width: 100%;
 height:11%;
-border: 2px solid red;
 display: flex;
 flex-direction: row;
 }
@@ -24,9 +22,10 @@ flex-direction: row;
 .sarch-div-1{
 width: 25%;
 height: 100%;
-border: 2px solid black;
 display: flex;
 flex-direction: column;
+margin-top: 2%;
+margin-left: 2%;
 }
 
 .btnsearch{
@@ -38,19 +37,32 @@ height: 30px;
 span{
     color: rgb(93, 119, 252);
 }
-.personC{
-    border: solid blueviolet;
-    display: flex;
-    float: right;
-    flex-direction:column;
-}
-.profile{
+.person{
     display: flex;
     float: right;
     flex-direction:column;
 }
 .button_presonC{
+    display: flex;
+    float: right;
+    flex-direction:column;
+}   
+
+.profile{
+    display: flex;
+    float: right;
+    flex-direction:column;
+}
+/* .button_presonC{
     border: rgb(36, 57, 58);
+} */
+
+.headerP2C{
+
+    height:20% ;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -69,7 +81,6 @@ span{
 .underheader{
     width: 100%;
     height: 15%;
-    border: 2px solid red;
     text-align: center;
     padding-top: 30px;
     font-family:"Calibri";
@@ -81,7 +92,7 @@ span{
     height: 70%;
     display: flex;
     flex-direction: row;
-    border: 2px solid blue;
+  
     
 
 }
@@ -89,7 +100,7 @@ span{
 .menC{
 width:50% ;
 height: 100%;
-border: 2px solid yellow;
+
 
 }
 .tswaq_manC{
@@ -117,7 +128,7 @@ border: 2px solid yellow;
 
     width:50% ;
     height: 100%;
-    border: 2px solid green;
+  
 
 }
 .image_famelC{
@@ -146,7 +157,7 @@ border: 2px solid yellow;
 
     width: 100%;
     height: 100vh;
-    border: 2px solid black;
+
     display: flex;
     flex-direction: column;
 
