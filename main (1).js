@@ -1,6 +1,5 @@
-$(window).on("load", function () {
-
-        $(`#p2Contaner`).hide();
+$(document).ready( function () {
+        $(`.p2container`).hide();
 });
 
 
