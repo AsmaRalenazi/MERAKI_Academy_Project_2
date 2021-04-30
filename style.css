@@ -168,7 +168,7 @@ width: 100%;
 .all_productsC{
     display:grid;
     grid-template-columns:repeat(3,300px);
-    grid-template-rows:repeat(1,500px);
+    grid-template-rows:repeat(2,500px);
     gap:60px 60px;
     justify-content:center; 
     float: right;
@@ -192,6 +192,10 @@ width: 100%;
     color: black;
     margin-right: 10px;
     font-family: "Calibri";
+}
+.price{
+    color: rgb(212, 52, 52);
+    padding-left: 69%;
 }
 .p-box{
     display: flex;
@@ -261,4 +265,12 @@ width: 100%;
     border-radius: 10px;
     font-size: 14px;
     flex-direction: column;
+}
+.AVALIERI2C{
+    width: 219px;
+    height: 239px;
+    margin-bottom: 24px;
+}
+.p2imge_AVALIERI2C{
+
 }
