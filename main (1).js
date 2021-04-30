@@ -40,16 +40,25 @@ for(let i=0;i<carts.length;i++){
         carNumbers();
     })
 }
+
+let products=[
+{
+    name:'AVALIERI'
+    tag:'ساعة يد دائرية للنساء مع سوار من افاليري'
+    price:"621ريال"
+}
+]
+
+
 function carNumbers(){
     let productsNumbers=localStorage.getItem('cartNumbers');
  
 
     productsNumbers=parseInt(productsNumbers)
   if (productsNumbers){
-    localStorage.serItem('carNumbers',productsNumbers + 1);
+    localStorage.setItem('carNumbers',productsNumbers + 1);
 }else{
-    localStorage.serItem('carNumbers', 1);
-    
+    localStorage.setItem('carNumbers', 1);
 }
 
 // getMatch()
