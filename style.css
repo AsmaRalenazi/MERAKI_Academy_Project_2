@@ -4,6 +4,20 @@
     margin: 0;
 }
 
+/* .logoC{
+    width: 20%;
+    height: 20%;
+    flex-direction: column;
+    display: flex;
+} */
+.logo1{
+   
+    margin-right: 61%;
+    width: 8%;
+    height: 162%;
+    float: right
+}
+
 .p1container{
 width: 100%;
 height: 100vh;
@@ -14,7 +28,7 @@ flex-direction: column;
 
 .p1header{
 width: 100%;
-height:11%;
+height:7%;
 display: flex;
 flex-direction: row;
 }
@@ -38,9 +52,11 @@ span{
     color: rgb(93, 119, 252);
 }
 .person{
-    display: flex;
+    /* display: flex; */
     float: right;
     flex-direction:column;
+    position:absolute;
+    top:4%;
 }
 .button_presonC{
     display: flex;
@@ -61,17 +77,6 @@ span{
     display: flex;
     flex-direction: column;
 }
-.sbjectC{
-    
-    font-size: 254%;
-    margin-left: 207%;
-    width: 100%;
-    height: 15%;
-    text-align: center;
-    padding-top: 30px;
-    font-family: "Calibri";
-    color: rgb(192, 64, 64);
-}
 
 .input1{
     width: 250px;
@@ -91,7 +96,8 @@ span{
     text-align: center;
     padding-top: 30px;
     font-family:"Calibri";
-    Border-top: 2px solid rgb(75, 75, 197)
+    /* Border-top: 2px solid rgb(75, 75, 197); */
+    border-bottom:2px solid rgb(75, 75, 197); ;
 }
 
 .p1bodyClass{
@@ -164,6 +170,13 @@ height: 100%;
 
 /* here page 2 layout */
 
+.logo2C{
+    margin-left: 236%;
+    width:212%;
+    height: 100%;
+    float: left;
+}
+
 .p2container{
 
     width: 100%;
@@ -172,6 +185,15 @@ height: 100%;
     display: flex;
     flex-direction: column;
 
+}
+.sbjectC{
+    
+    font-size:195%;
+    margin-left: 309%;
+    width:100%;
+    text-align: center;
+    font-family: "Calibri";
+    color: rgb(192, 64, 64);
 }
 /* .button_home{
     width: 20%;
@@ -193,11 +215,12 @@ height: 100%;
     width: 101px;
     height: 38px;
    fill: currentcolor;
+   position:absolute
 }
 
 .underheaderp2C{
-width: 100%;
-    height: 15%;
+    width: 100%;
+    height: 23%;
     Border-top: 2px solid;
     text-align: center;
     padding-top: 30px;
