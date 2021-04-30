@@ -1,7 +1,10 @@
 $(document).ready( function () {
-        $(`.p2container`).hide();
+      $(`.p2container`).hide();
 });
 
+$(document).ready( function () {
+    $(`.container`).show();
+});
 
 const buttonNext=$("#tswaqi_famel");
 
@@ -12,13 +15,20 @@ buttonNext.click(()=>{
     
 });
 
+
+const homepage=$("#homep2");
+
+homepage.click(()=>{
+    $(`#p2Contaner`).show();
+    $(`#container`).hide(); 
+});
 // getMatch()
 // buttonNext.text("next")
-// $(`#list-item-pushed${i}`).on("click", function () {
-//     $(this).css({
-//       color: "red",
 
-//       "font-size": "20px",
+// $(`#imge1${i}`).on("click", function () {
+//     $(this).css({
+//      $(#`imge1`).show() 
+//      $(#`all_products`).hide() 
 //     });
 
 //     homePageHider();
