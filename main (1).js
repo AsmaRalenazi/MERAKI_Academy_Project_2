@@ -22,16 +22,11 @@ buttonNext.click(()=>{
 });
 
 const homepage=$(`#homep2`);
-
 homepage.click(()=>{
-    $(`#p2Contaner`).show();
-    $(`#container`).hide(); 
-});
-$(document).ready( function () {
+    $(`#container`).show(); 
     $(`#p2Contaner`).hide();
-    $(`.container`).show();
-
 });
+
 
 
 let carts=$(`.add_to_cart`);
@@ -52,7 +47,6 @@ let products=[
 
 
 function cartNumbers(product){
-    console.log("dkdkdkkdk");
     let productsNumbers=localStorage.getItem('cartNumbers');
  
 
