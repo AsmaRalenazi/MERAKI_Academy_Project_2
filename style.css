@@ -156,6 +156,12 @@ border: 2px solid yellow;
     height: 30%;
 } */
 
+.shoppingC{
+    display: flex;
+    display: inline;
+    border: brown;
+}
+
 .underheaderp2C{
 width: 100%;
     height: 15%;
@@ -288,4 +294,61 @@ color: #4d4d4d70;
     font-size:18px;
     float: right;
     padding-right: 10px;
+}
+.add_to_cart2{
+    position: absolute;
+    height:32px;
+    /* width: 5px; */
+    justify-content: center;
+    font-family: "Calibri";
+    bottom: 6px;
+    border: solid rgb(129, 94, 255);
+    text-decoration: none;
+    color: rgb(129, 94, 255);
+    padding-left: 60px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.add_to_cart3{
+    position: absolute;
+    height:32px;
+    /* width: 5px; */
+    justify-content: center;
+    font-family: "Calibri";
+    bottom: 6px;
+    border: solid rgb(129, 94, 255);
+    text-decoration: none;
+    color: rgb(129, 94, 255);
+    padding-left: 60px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.add_to_cart4{
+    position: absolute;
+    height:32px;
+    /* width: 5px; */
+    justify-content: center;
+    font-family: "Calibri";
+    bottom: 6px;
+    border: solid rgb(129, 94, 255);
+    text-decoration: none;
+    color: rgb(129, 94, 255);
+    padding-left: 60px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 14px;
 }
