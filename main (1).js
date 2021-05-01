@@ -2,11 +2,7 @@ $(document).ready( function () {
       $(`.p2container`).hide();
 });
 
-// $(document).ready( function () {
-//     $(`.container`).show();
-//     $(`#p2Contaner`).show();
 
-// });
 
 const buttonNext=$("#tswaqi_famel");
 // buttonNext.on("mouseover",hander)
@@ -62,6 +58,10 @@ setItems(product);
 function srtItems(product){
 
 }
+
+
+
+
 // getMatch()
 // buttonNext.text("next")
 

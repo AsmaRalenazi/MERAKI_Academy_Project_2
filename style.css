@@ -49,7 +49,7 @@ height: 30px;
 
 }
 span{
-    color: rgb(93, 119, 252);
+    color:rgb(108, 99, 255)
 }
 .person{
     /* display: flex; */
@@ -169,6 +169,9 @@ height: 100%;
 
 
 /* here page 2 layout */
+.backgroungp2{
+background-color: rgb(201, 201, 201);
+}
 
 .logo2C{
     margin-left: 236%;
@@ -412,3 +415,455 @@ color: #4d4d4d70;
 .btnHolderC{
    text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* size---mobile
+|
+V
+
+|
+V
+
+|
+V
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:672px) {
+
+
+    *{
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+    /* .logoC{
+        width: 20%;
+        height: 20%;
+        flex-direction: column;
+        display: flex;
+    } */
+    .logo1{
+       
+        margin-right: 61%;
+        width: 8%;
+        height: 162%;
+        float: right
+    }
+    
+    .p1container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    
+    .p1header{
+    width: 100%;
+    height:7%;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .sarch-div-1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 2%;
+    }
+    
+    .btnsearch{
+    color:black;
+    width: 30px;
+    height: 30px;
+    
+    }
+    span{
+        color:rgb(108, 99, 255)
+    }
+    .person{
+        float: right;
+        flex-direction: column;
+        position: absolute;
+        top: 7%;
+        left: 10%;
+    }
+    .button_presonC{
+        display: flex;
+        float: right;
+        flex-direction:column;
+    }   
+    
+    .profile{
+        display: flex;
+        float: right;
+        flex-direction:column;
+    }
+    
+    .headerP2C{
+    
+        height:20% ;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input1{
+        width: 250px;
+        height: 39px;
+        border:3px solid;
+    }
+    
+    ::placeholder{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    
+    .underheader{
+        width: 100%;
+        height: 15%;
+        text-align: center;
+        padding-top: 30px;
+        font-family:"Calibri";
+        /* Border-top: 2px solid rgb(75, 75, 197); */
+        border-bottom:2px solid rgb(75, 75, 197); ;
+    }
+    
+    .p1bodyClass{
+    
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menC{
+    width:50% ;
+    height: 100%;
+    
+    
+    }
+    .tswaq_manC{
+        font-family:"Calibri" ;
+        border:2px solid rgb(56, 56, 146);
+        display: flex;
+        display: inline;
+        margin-left:30%;
+        color:rgb(56, 56, 146);
+        
+    }
+    .image_manC{
+    
+        width:70%;
+        height:70%;
+        /* display: flex; */
+        bottom:10px;
+        margin-top:40px;
+        margin-left:50px ;
+    
+    
+        }
+    
+    .womenC{
+    
+        width:50% ;
+        height: 100%;
+        
+      
+    
+    }
+    .image_famelC{
+        width: 70%;
+        height: 70%;
+        margin-top:60px;
+        border-left: 2px solid;
+    }
+       
+    .tswaqi_famel{
+        font-family:"Calibri" ;
+        border:2px solid rgb(228, 80, 80);
+        display: flex;
+        display: inline;
+        margin-left:30%;
+        bottom: 5px;
+        color:rgb(228, 80, 80);
+    
+    }
+    
+    
+    
+    
+    
+    /* here page 2 layout */
+    .backgroungp2{
+    background-color: rgb(201, 201, 201);
+    }
+    
+    .logo2C{
+        margin-left: 82%;
+        width:578%;
+        height: 100%;
+        float: left;
+        margin-top: -27%;
+    }
+    
+    .p2container{
+    
+        width: 100%;
+        height: 100vh;
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .sbjectC{
+        
+        font-size:195%;
+        margin-left: 309%;
+        width:100%;
+        text-align: center;
+        font-family: "Calibri";
+        color: rgb(192, 64, 64);
+    }
+    .homep2{
+        display: flex;
+        flex-direction:row;
+        display: inline;
+        width: 101px;
+        height: 38px;
+       fill: currentcolor;
+    }
+    
+    .shoppingC{
+        display: flex;
+        flex-direction: column;
+        display: inline;
+        width: 101px;
+        height: 38px;
+       fill: currentcolor;
+       position:absolute
+    }
+    
+    .underheaderp2C{
+        width: 100%;
+        height: 23%;
+        Border-top: 2px solid;
+        text-align: center;
+        padding-top: 30px;
+        font-family: "Calibri";
+    
+    
+    }
+    
+    .all_productsC{
+        /* grid-template-columns: repeat(3,300px);
+        grid-template-rows: repeat(1,500px);
+        gap: 10px 60px; */
+        justify-content: center;
+        display: flex;
+        text-align: justify;
+        align-items: center;
+        flex-direction: column;
+    }
+    }
+    
+    
+    .AVALIERIC{
+        width: 219px;
+        height: 239px;
+        margin-bottom: 24px;
+    }
+    .p2imge_AVALIERIC{
+        color: #4d4d4d70;
+        font-size: 15px;
+        float: right;
+        padding-right: 10px;
+    }
+    .p3imge_AVALIERIC{
+        float: right;
+        color: black;
+        margin-right: 10px;
+        font-family: "Calibri";
+    }
+    .price{
+        color: rgb(212, 52, 52);
+        padding-left: 69%;
+    }
+    .p-box{
+        display: flex;
+        width: 247px;
+        height: 375px;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        position: relative;
+        margin: 10px 30px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 1px rgb(218, 218, 218);
+    }
+    .add_to_cart1{
+        position: absolute;
+        height:32px;
+        /* width: 5px; */
+        justify-content: center;
+        font-family: "Calibri";
+        bottom: 6px;
+        border: solid rgb(129, 94, 255);
+        text-decoration: none;
+        color: rgb(129, 94, 255);
+        padding-left: 60px;
+        padding-right: 70px;
+        display: flex;
+        align-items: center;
+        margin-left:10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .KylemoreC{
+        width: 219px;
+        height: 239px;
+        margin-bottom: 24px;   
+    }
+    .p2imge_KylemoreC{
+        color: #4d4d4d70;
+        font-size: 15px;
+        float: right;
+        padding-right: 10px;
+    }
+    .p3imge_KylemoreC{
+        float: right;
+        color: black;
+        margin-right: 10px;
+        font-family: "Calibri"; 
+    }
+    .add_to_cart2{
+        position: absolute;
+        height:32px;
+        justify-content: center;
+        font-family: "Calibri";
+        bottom: 6px;
+        border: solid rgb(129, 94, 255);
+        text-decoration: none;
+        color: rgb(129, 94, 255);
+        padding-left: 60px;
+        padding-right: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 2px;
+        margin-right: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        flex-direction: column;
+    }
+    .AVALIERI2C{
+        width: 219px;
+        height: 239px;
+        margin-bottom: 24px;
+    }
+    .Sara_MillerC{
+        width: 219px;
+        height: 239px;
+        margin-bottom: 24px;
+    }
+    .p3imge_Sara_Miller{
+        float: right;
+        color: black;
+        margin-right: 10px;
+        font-family: "Calibri";
+    }
+    
+    .p2imge_Sara_Miller2C{
+    color: #4d4d4d70;
+        font-size:18px;
+        float: right;
+        padding-right: 10px;
+    }
+    .add_to_cart2{
+        position: absolute;
+        height:32px;
+        /* width: 5px; */
+        justify-content: center;
+        font-family: "Calibri";
+        bottom: 6px;
+        border: solid rgb(129, 94, 255);
+        text-decoration: none;
+        color: rgb(129, 94, 255);
+        padding-left: 60px;
+        padding-right: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .add_to_cart3{
+        position: absolute;
+        height:32px;
+        /* width: 5px; */
+        justify-content: center;
+        font-family: "Calibri";
+        bottom: 6px;
+        border: solid rgb(129, 94, 255);
+        text-decoration: none;
+        color: rgb(129, 94, 255);
+        padding-left: 60px;
+        padding-right: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .add_to_cart4{
+        position: absolute;
+        height:32px;
+        /* width: 5px; */
+        justify-content: center;
+        font-family: "Calibri";
+        bottom: 6px;
+        border: solid rgb(129, 94, 255);
+        text-decoration: none;
+        color: rgb(129, 94, 255);
+        padding-left: 60px;
+        padding-right: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .btnHolderC{
+       text-align: center;
+    }
+
