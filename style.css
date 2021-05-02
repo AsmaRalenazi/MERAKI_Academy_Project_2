@@ -84,7 +84,6 @@ span {
   text-align: center;
   padding-top: 30px;
   font-family: "Calibri";
-  /* Border-top: 2px solid rgb(75, 75, 197); */
   border-bottom: 2px solid rgb(75, 75, 197);
 }
 
@@ -110,7 +109,6 @@ span {
 .image_manC {
   width: 70%;
   height: 70%;
-  /* display: flex; */
   bottom: 10px;
   margin-top: 40px;
   margin-left: 50px;
@@ -136,6 +134,14 @@ span {
   bottom: 5px;
   color: rgb(228, 80, 80);
 }
+
+
+
+
+
+
+
+
 
 /* here page 2 layout */
 .backgroungp2 {
@@ -164,10 +170,7 @@ span {
   font-family: "Calibri";
   color: rgb(192, 64, 64);
 }
-/* .button_home{
-    width: 20%;
-    height: 30%;
-} */
+
 .homep2 {
   display: flex;
   flex-direction: row;
@@ -240,10 +243,9 @@ span {
   border-radius: 5px;
   box-shadow: 0px 0px 7px 1px rgb(218, 218, 218);
 }
-.add_to_cart1 {
+.add_to_cart {
   position: absolute;
   height: 32px;
-  /* width: 5px; */
   justify-content: center;
   font-family: "Calibri";
   bottom: 6px;
@@ -276,7 +278,7 @@ span {
   margin-right: 10px;
   font-family: "Calibri";
 }
-.add_to_cart2 {
+/* .add_to_cart2 {
   position: absolute;
   height: 32px;
   justify-content: center;
@@ -294,7 +296,7 @@ span {
   border-radius: 10px;
   font-size: 14px;
   flex-direction: column;
-}
+} */
 .AVALIERI2C {
   width: 219px;
   height: 239px;
@@ -318,29 +320,9 @@ span {
   float: right;
   padding-right: 10px;
 }
-.add_to_cart2 {
+/* .add_to_cart3 {
   position: absolute;
   height: 32px;
-  /* width: 5px; */
-  justify-content: center;
-  font-family: "Calibri";
-  bottom: 6px;
-  border: solid rgb(129, 94, 255);
-  text-decoration: none;
-  color: rgb(129, 94, 255);
-  padding-left: 60px;
-  padding-right: 70px;
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 10px;
-  font-size: 14px;
-}
-.add_to_cart3 {
-  position: absolute;
-  height: 32px;
-  /* width: 5px; */
   justify-content: center;
   font-family: "Calibri";
   bottom: 6px;
@@ -359,7 +341,6 @@ span {
 .add_to_cart4 {
   position: absolute;
   height: 32px;
-  /* width: 5px; */
   justify-content: center;
   font-family: "Calibri";
   bottom: 6px;
@@ -374,7 +355,7 @@ span {
   margin-right: 10px;
   border-radius: 10px;
   font-size: 14px;
-}
+} */
 .btnHolderC {
   text-align: center;
 }
@@ -398,12 +379,6 @@ V
     margin: 0;
   }
 
-  /* .logoC{
-        width: 20%;
-        height: 20%;
-        flex-direction: column;
-        display: flex;
-    } */
   .logo1 {
     margin-right: 61%;
     width: 8%;
@@ -485,7 +460,6 @@ V
     text-align: center;
     padding-top: 30px;
     font-family: "Calibri";
-    /* Border-top: 2px solid rgb(75, 75, 197); */
     border-bottom: 2px solid rgb(75, 75, 197);
   }
 
@@ -511,7 +485,6 @@ V
   .image_manC {
     width: 70%;
     height: 70%;
-    /* display: flex; */
     bottom: 10px;
     margin-top: 40px;
     margin-left: 50px;
@@ -537,6 +510,13 @@ V
     bottom: 5px;
     color: rgb(228, 80, 80);
   }
+
+
+
+
+
+
+
 
   /* here page 2 layout */
   .backgroungp2 {
@@ -595,9 +575,6 @@ V
   }
 
   .all_productsC {
-    /* grid-template-columns: repeat(3,300px);
-        grid-template-rows: repeat(1,500px);
-        gap: 10px 60px; */
     justify-content: center;
     display: flex;
     text-align: justify;
@@ -640,10 +617,9 @@ V
   border-radius: 5px;
   box-shadow: 0px 0px 7px 1px rgb(218, 218, 218);
 }
-.add_to_cart1 {
+.add_to_cart {
   position: absolute;
   height: 32px;
-  /* width: 5px; */
   justify-content: center;
   font-family: "Calibri";
   bottom: 6px;
@@ -676,7 +652,7 @@ V
   margin-right: 10px;
   font-family: "Calibri";
 }
-.add_to_cart2 {
+/* .add_to_cart2 {
   position: absolute;
   height: 32px;
   justify-content: center;
@@ -694,7 +670,7 @@ V
   border-radius: 10px;
   font-size: 14px;
   flex-direction: column;
-}
+} */
 .AVALIERI2C {
   width: 219px;
   height: 239px;
@@ -718,10 +694,9 @@ V
   float: right;
   padding-right: 10px;
 }
-.add_to_cart2 {
+/* .add_to_cart2 {
   position: absolute;
   height: 32px;
-  /* width: 5px; */
   justify-content: center;
   font-family: "Calibri";
   bottom: 6px;
@@ -740,7 +715,6 @@ V
 .add_to_cart3 {
   position: absolute;
   height: 32px;
-  /* width: 5px; */
   justify-content: center;
   font-family: "Calibri";
   bottom: 6px;
@@ -755,11 +729,10 @@ V
   margin-right: 10px;
   border-radius: 10px;
   font-size: 14px;
-}
-.add_to_cart4 {
+} */
+/* .add_to_cart4 {
   position: absolute;
   height: 32px;
-  /* width: 5px; */
   justify-content: center;
   font-family: "Calibri";
   bottom: 6px;
@@ -774,7 +747,8 @@ V
   margin-right: 10px;
   border-radius: 10px;
   font-size: 14px;
-}
+} */
+
 .btnHolderC {
   text-align: center;
 }

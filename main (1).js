@@ -21,28 +21,63 @@ let carts = $(`.add_to_cart`);
 console.log(carts);
 for (let i = 0; i < carts.length; i++) {
   carts[i].on(`click()`, () => {
-    carNumbers(products[i]);
+    cartNumbers(products[i]);
   });
 }
 
 let products = [
   {
     name: "AVALIERI",
-    // tag:'ساعة يد دائرية للنساء مع سوار من افاليري'
-    // price:"621ريال"
-  },
+    tag:'ساعة يد دائرية للنساء مع سوار من افاليري',
+    price:"621ريال",
+    imge:"1.png"
+
+  }
+]
+
+[
+  {
+    name: "Kylemore",
+    tag:' ساعة نسائية من كايلمور - فضي مع ذهبي',
+    price:"321 ريال",
+    imge:"2.png"
+    
+  }
+]
+
+[
+  {
+    name: "AVALIERI",
+    tag:'ساعة نسائية من افاليري - ذهبي',
+    price:"388 ريال",
+    imge:"3.png"
+    
+  }
 ];
 
 function cartNumbers(product) {
-  let productsNumbers = localStorage.getItem("cartNumbers");
+  console.log(product);
+  // let productsNumbers = localStorage.getItem("cartNumbers");
 
-  productsNumbers = parseInt(productsNumbers);
-  if (productsNumbers) {
-    localStorage.setItem("cartNumbers", productsNumbers + 1);
-  } else {
-    localStorage.setItem("cartNumbers", 1);
-  }
-  setItems(product);
+  // productsNumbers = parseInt(productsNumbers);
+  // if (productsNumbers) {
+  //   localStorage.setItem("cartNumbers", productsNumbers + 1);
+  // } else {
+  //   localStorage.setItem("cartNumbers", 1);
+  // }
+  // setItems(product);
 }
 
-function srtItems(product) {}
+
+// function srtItems(product) {}
+
+
+let creatElement=${`<img src="3.png" >
+AVALIERI
+ 
+ ساعة نسائية من افاليري - ذهبي
+ 
+ 388 ريال`}
+
+ 
+ ${`imge2`}
