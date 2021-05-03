@@ -42,7 +42,6 @@ span {
   color: rgb(108, 99, 255);
 }
 .person {
-  /* display: flex; */
   float: right;
   flex-direction: column;
   position: absolute;

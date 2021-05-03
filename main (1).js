@@ -1,6 +1,6 @@
-// $(document).ready(function () {
-//   $(`.p2container`).hide();
-// });
+$(document).ready(function () {
+  $(`.p2container`).hide();
+});
 
 const buttonNext = $("#tswaqi_famel");
 buttonNext.mouseover(function () {
@@ -17,6 +17,15 @@ homepage.click(() => {
   $(`#container`).show();
   $(`#p2Contaner`).hide();
 });
+
+const pr= $("#AVALIERI");
+pr.mouseover(function () {
+  $(".AVALIERIC").css("cursor", "pointer");
+});
+pr.click(()=>{
+  $(`#detail_products`).show();
+  $(`#p2Contaner`).hide();
+})
 
 let carts = $(`.add_to_cart`);
 console.log(carts);
@@ -62,6 +71,7 @@ let products = [
     imge:"4.png"
   }
 ];
+
 
 function cartNumbers(product) {
   console.log(product);
