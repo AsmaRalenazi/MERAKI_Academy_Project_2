@@ -18,13 +18,20 @@ homepage.click(() => {
   $(`#p2Contaner`).hide();
 });
 
-// let carts = $(`.add_to_cart`);
-// console.log(carts);
-// for (let i = 0; i < carts.length; i++) {
-//   carts[i].on(`click()`, () => {
-//     cartNumbers(products[i]);
-//   });
-// }
+let carts = $(`.add_to_cart`);
+console.log(carts);
+for (let i = 0; i < carts.length; i++) {
+  carts[i].on(`click()`, () => {
+    console.log("ppppppp");
+    cartNumbers(products[i]);
+  });
+  localStorage.getItem() 
+}
+let counter=0
+function cartNumbers(product) {
+  console.log(product);
+  counter++
+  localStorage.setItem("counter", counter);}
 
 let products = [
   {
@@ -63,27 +70,27 @@ let products = [
     imge: "4.png",
   },
 ];
-let counter=0
-function cartNumbers(product) {
-  console.log(product);
-  counter++
-  localStorage.setItem("counter", counter);
+// let counter=0
+// function cartNumbers(product) {
+//   console.log(product);
+//   counter++
+//   localStorage.setItem("counter", counter);
   
   // let productsNumbers = localStorage.getItem("cartNumbers");
 
   // productsNumbers = parseInt(productsNumbers);
   // if (productsNumbers) {
-    localStorage.setItem("cartNumbers", productsNumbers + 1);
+    // localStorage.setItem("cartNumbers", productsNumbers + 1);
   // } else {
   //   localStorage.setItem("cartNumbers", 1);
   // }
   // setItems(product);
-}
-const carts=$("shopping")
-carts.click(()=>{
-  cartNumbers()
-})
-localStorage.getItem()
+// }
+// const carts=$("shopping")
+// carts.click(()=>{
+//   cartNumbers()
+// })
+// localStorage.getItem()
 
 
 const detail_products = $(`#detail_products`);
@@ -91,9 +98,9 @@ const fun1 = (i) => {
   const elem3 = $(` <div id="img${i}" class="imge1C">
       <img src="${products[i].imge} " id="${products[i].name}" class="AVALIERCC" />
       <p class="AVALIERIC1">${products[i].name}</p>
-      <p class="p3imge_AVALIERIC">${products[i].tag}</p>
+      <p class="AVALIERIC2">${products[i].tag}</p>
       <p class ="detail">${products[i].detail}</p>
-      <p id="price${i}" class="price">${products[i].price}</p>
+      <p id="price1${i}" class="priceC">${products[i].price}</p>
       <a class="add_to_cart" href="#" onclick="cartNumbers(i)">اضف لسلة التسوق</a>
       </div>`);
 
@@ -113,7 +120,7 @@ addTomain = () => {
     <p class="p2imge_AVALIERIC">${products[i].name}</p>
     <p class="p3imge_AVALIERIC">${products[i].tag}</p>
       <p id="price${i}" class="price">${products[i].price}</p>
-      <a class="add_to_cart" href="#" onclick="cartNumbers(0)">اضف لسلة التسوق</a>
+      <a class="add_to_cart" href="#" onclick="cartNumbers(${products[i]})">اضف لسلة التسوق</a>
       </div>`);
 
     elem22.appendTo(elem);
