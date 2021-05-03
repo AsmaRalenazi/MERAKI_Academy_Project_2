@@ -209,8 +209,19 @@ span {
 }
 
 .AVALIERCC{
-width:50%;
-height:40%;
+width:40%;
+height:30%;
+float: right;
+}
+.detail{
+  float: right;
+
+}
+.AVALIERIC1{
+float: right;
+color: black;
+margin-right: 10px;
+font-family: "Calibri";
 }
 
 .AVALIERIC {
@@ -309,6 +320,11 @@ height:40%;
 
 .btnHolderC {
   text-align: center;
+}
+#shopping{
+  border: none;
+  background: none;
+  margin-top: 5px;
 }
 
 /* size---mobile
