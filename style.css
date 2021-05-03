@@ -208,6 +208,11 @@ span {
   text-align: justify;
 }
 
+.AVALIERCC{
+width:50%;
+height:40%;
+}
+
 .AVALIERIC {
   width: 219px;
   height: 239px;
@@ -277,25 +282,7 @@ span {
   margin-right: 10px;
   font-family: "Calibri";
 }
-/* .add_to_cart2 {
-  position: absolute;
-  height: 32px;
-  justify-content: center;
-  font-family: "Calibri";
-  bottom: 6px;
-  border: solid rgb(129, 94, 255);
-  text-decoration: none;
-  color: rgb(129, 94, 255);
-  padding-left: 60px;
-  padding-right: 70px;
-  display: flex;
-  align-items: center;
-  margin-left: 2px;
-  margin-right: 10px;
-  border-radius: 10px;
-  font-size: 14px;
-  flex-direction: column;
-} */
+
 .AVALIERI2C {
   width: 219px;
   height: 239px;
@@ -319,42 +306,7 @@ span {
   float: right;
   padding-right: 10px;
 }
-/* .add_to_cart3 {
-  position: absolute;
-  height: 32px;
-  justify-content: center;
-  font-family: "Calibri";
-  bottom: 6px;
-  border: solid rgb(129, 94, 255);
-  text-decoration: none;
-  color: rgb(129, 94, 255);
-  padding-left: 60px;
-  padding-right: 70px;
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 10px;
-  font-size: 14px;
-}
-.add_to_cart4 {
-  position: absolute;
-  height: 32px;
-  justify-content: center;
-  font-family: "Calibri";
-  bottom: 6px;
-  border: solid rgb(129, 94, 255);
-  text-decoration: none;
-  color: rgb(129, 94, 255);
-  padding-left: 60px;
-  padding-right: 70px;
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 10px;
-  font-size: 14px;
-} */
+
 .btnHolderC {
   text-align: center;
 }
