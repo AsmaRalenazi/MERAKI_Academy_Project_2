@@ -23,26 +23,28 @@ console.log(carts);
 for (let i = 0; i < carts.length; i++) {
   carts[i].on(`click()`, () => {
     console.log("ppppppp");
-    cartNumbers(products[i]);
+    cartNumbers();
   });
   localStorage.getItem() 
 }
 let counter=0
-function cartNumbers(product) {
+function cartNumbers(img,name,tag,price) {
   console.log(product);
   counter++
   localStorage.setItem("counter", counter);}
+
+
 
 let products = [
   {
     name: "AVALIERI",
     tag: "ساعة يد دائرية للنساء مع سوار من افاليري",
 
-    detail: `  "ساعة يد أنيقة من افاليري تمنح إطلالتك لمسة مميزة وتزين يديك بسوار فاخر لمزيد من الأناقة."
-    "تتميز بسوار شبكي مقاوم للصدأ ويعطي إحساسًا مريحًا لمعصمك وشكلًا انيقًا على يدك."
-    "بالإضافة للهيكل بحجم 30ملم، يتميز بمقاومته للماء حتى عمق 5متر لتحافظ على ساعتك وتبقيها محمية دائمًا"
-    "الهيكل يحتوي على عقربين، والميناء مزين بشعار افاليري، بالإضافة لنمط الأرقام الرومانية."
-   " هذه الساعة ستضيف لمسة من الفخامة لوقتك."   `
+    detail: `  ساعة يد أنيقة من افاليري تمنح إطلالتك لمسة مميزة وتزين يديك بسوار فاخر لمزيد من الأناقة.<br>
+    تتميز بسوار شبكي مقاوم للصدأ ويعطي إحساسًا مريحًا لمعصمك وشكلًا انيقًا على يدك.<br>
+    بالإضافة للهيكل بحجم 30ملم، يتميز بمقاومته للماء حتى عمق 5متر لتحافظ على ساعتك وتبقيها محمية دائمًا<br>
+    الهيكل يحتوي على عقربين، والميناء مزين بشعار افاليري، بالإضافة لنمط الأرقام الرومانية.<br>
+    هذه الساعة ستضيف لمسة من الفخامة لوقتك.   `
    ,
     price: "621ريال",
     imge: "1.png",
@@ -96,13 +98,16 @@ let products = [
 const detail_products = $(`#detail_products`);
 const fun1 = (i) => {
   const elem3 = $(` <div id="img${i}" class="imge1C">
-      <img src="${products[i].imge} " id="${products[i].name}" class="AVALIERCC" />
-      <p class="AVALIERIC1">${products[i].name}</p>
-      <p class="AVALIERIC2">${products[i].tag}</p>
+      <img src="${products[i].imge} " id="${products[i].name}" class="all_imgewhatch" />
+      <div id="right_div" class="right_divC">
+      <p class="name_whatch">${products[i].name}</p>
+      <p class="pragraf">${products[i].tag}</p>
       <p class ="detail">${products[i].detail}</p>
       <p id="price1${i}" class="priceC">${products[i].price}</p>
-      <a class="add_to_cart" href="#" onclick="cartNumbers(i)">اضف لسلة التسوق</a>
-      </div>`);
+      </div>
+      <div>
+      <a class="add_to_cart1" href="#" onclick="cartNumbers(${products[i].imge},${products[i].name} ,${products[i].tag} ,${products[i].price})">اضف لسلة التسوق</a>
+     </div> </div>`);
 
   elem3.appendTo(detail_products);
   $(`#p2Contaner`).hide();
@@ -120,7 +125,7 @@ addTomain = () => {
     <p class="p2imge_AVALIERIC">${products[i].name}</p>
     <p class="p3imge_AVALIERIC">${products[i].tag}</p>
       <p id="price${i}" class="price">${products[i].price}</p>
-      <a class="add_to_cart" href="#" onclick="cartNumbers(${products[i]})">اضف لسلة التسوق</a>
+      <a class="add_to_cart" href="#" onclick="cartNumbers(${products[i].imge +products[i].tag +products[i].price})">اضف لسلة التسوق</a>
       </div>`);
 
     elem22.appendTo(elem);
