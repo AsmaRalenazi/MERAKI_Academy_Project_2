@@ -303,7 +303,6 @@ span {
   display: inline;
   width: 101px;
   height: 38px;
- 
 }
 .btnHolderp3C{
  margin-top: -3%;
@@ -361,9 +360,7 @@ text-align-last: end;
     position:absolute;
     display: inline;
     bottom: 20%;
-    right: 52%;
-
-    
+    right: 52%;  
   }
   .add_to_cart1 {
     background-color:  rgb(129, 94, 255);;
@@ -814,4 +811,5 @@ text-align-last: end;
     font-size: 30px;
     margin-bottom: 8%;
     margin-left: 15%;
+}
 }
