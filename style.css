@@ -263,47 +263,7 @@ span {
   border-radius: 10px;
   font-size: 14px;
 }
-.KylemoreC {
-  width: 219px;
-  height: 239px;
-  margin-bottom: 24px;
-}
-.p2imge_KylemoreC {
-  color: #4d4d4d70;
-  font-size: 15px;
-  float: right;
-  padding-right: 10px;
-}
-.p3imge_KylemoreC {
-  float: right;
-  color: black;
-  margin-right: 10px;
-  font-family: "Calibri";
-}
 
-.AVALIERI2C {
-  width: 219px;
-  height: 239px;
-  margin-bottom: 24px;
-}
-.Sara_MillerC {
-  width: 219px;
-  height: 239px;
-  margin-bottom: 24px;
-}
-.p3imge_Sara_Miller {
-  float: right;
-  color: black;
-  margin-right: 10px;
-  font-family: "Calibri";
-}
-
-.p2imge_Sara_Miller2C {
-  color: #4d4d4d70;
-  font-size: 18px;
-  float: right;
-  padding-right: 10px;
-}
 
 .btnHolderC {
   text-align: center;
@@ -455,7 +415,7 @@ V
 
 */
 
-@media all and (max-width: 672px) {
+@media all and (max-width:528px) {
   * {
     padding: 0;
     box-sizing: border-box;
@@ -501,11 +461,13 @@ V
     color: rgb(108, 99, 255);
   }
   .person {
-    float: right;
+   
     flex-direction: column;
     position: absolute;
-    top: 7%;
-    left: 10%;
+    top: 9%;
+    right:70%;
+    border: none;
+    background: none;
   }
   .button_presonC {
     display: flex;
@@ -593,3 +555,263 @@ V
     bottom: 5px;
     color: rgb(228, 80, 80);
   }
+
+
+
+
+
+
+
+
+  
+
+/* here page 2 layout */
+.backgroungp2 {
+  background-color: rgb(201, 201, 201);
+}
+
+.logo2C {
+  margin-left: 203%;
+  width: 283%;
+  height: 57%;
+  float: left;
+}
+
+.p2container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+.sbjectC {
+  font-size: 163%;
+  margin-left: 309%;
+  width: 100%;
+  text-align: center;
+  font-family: "Calibri";
+  color: rgb(192, 64, 64);
+}
+
+.homep2 {
+  display: flex;
+  flex-direction: row;
+  display: inline;
+  width: 101px;
+  height: 38px;
+  fill: currentcolor;
+}
+
+.shoppingC {
+  display: flex;
+  flex-direction: column;
+  display: inline;
+  width: 101px;
+  height: 38px;
+  fill: currentcolor;
+  position: absolute;
+}
+
+.underheaderp2C {
+  width: 100%;
+  height: 23%;
+  border-top: 2px solid;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Calibri";
+}
+
+.all_productsC {
+ 
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(1, 500px);
+  gap: 10px 60px;
+  justify-content: center;
+  float: right;
+  text-align: justify;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.AVALIERIC {
+  width: 219px;
+  height: 239px;
+  margin-bottom: 24px;
+}
+.p2imge_AVALIERIC {
+  color: #4d4d4d70;
+  font-size: 15px;
+  float: right;
+  padding-right: 10px;
+}
+.p3imge_AVALIERIC {
+  float: right;
+  color: black;
+  margin-right: 10px;
+  font-family: "Calibri";
+}
+.price {
+  color: rgb(212, 52, 52);
+  padding-left: 69%;
+}
+.p-box {
+  display: flex;
+  width: 247px;
+  height: 375px;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  position: relative;
+  margin: 10px 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 1px rgb(218, 218, 218);
+}
+.add_to_cart {
+  position: absolute;
+  height: 32px;
+  justify-content: center;
+  font-family: "Calibri";
+  bottom: 6px;
+  border: solid rgb(129, 94, 255);
+  text-decoration: none;
+  color: rgb(129, 94, 255);
+  padding-left: 60px;
+  padding-right: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+
+
+
+.btnHolderC {
+  text-align: center;
+}
+#shopping{
+  border: none;
+  background: none;
+  margin-top: 15px;
+}
+
+#homep2{
+  border: none;
+  background: none;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+/* here page3 layout */
+
+.homep3C{
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  display: inline;
+  width: 101px;
+  height: 38px;
+  
+}
+
+.shopping3C{
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  display: inline;
+  width: 101px;
+  height: 38px;
+ 
+}
+.btnHolderp3C{
+ margin-top: -3%;
+}
+.subject1{
+  color:rgb(239, 239, 245);
+  text-align: center;
+  border-bottom: 2px solid black;
+    background-color: rgb(108, 99, 255);
+    padding-top:4%;
+}
+.all_imgewhatch{
+  width:29%;
+  height:7%;
+  float: right;
+  margin-top:-3%;
+  margin-right: 33%;
+  }
+  .detail{
+    float: right;
+    font-size:17px;
+    margin-top:12%;
+    margin-right: 17px;
+    text-align: justify;
+text-align-last: end;
+  
+  }
+  .name_whatch{
+  float: right;
+  color: rgb(108, 99, 255);
+  margin-right: 10px;
+  font-family: "Calibri";
+  text-align: center;
+  font-size:21px;
+  margin-top:26%;
+  display: inline;
+  margin-left:12%;
+  position: absolute;
+  
+  }
+  .pragraf{
+    top:35%;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    font-size:21px;
+    display: inline;
+    margin-left: 28%;
+    position: fixed;
+  }
+  .priceC {
+    color: rgb(212, 52, 52);
+    padding-left: 55%;
+    font-weight: bold;
+    font-size: 31px;
+    position:absolute;
+    display: inline;
+    bottom: 20%;
+    right: 52%;
+
+    
+  }
+  .add_to_cart1 {
+    background-color:  rgb(129, 94, 255);;
+    position: absolute;
+    height:7%;
+    justify-content: center;
+    font-family: "Calibri";
+    bottom: 6px;
+    border: solid rgb(129, 94, 255);
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 8%;
+    margin-left: 15%;
+}
