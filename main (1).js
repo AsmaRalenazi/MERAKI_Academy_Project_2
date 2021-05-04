@@ -26,8 +26,6 @@ homepage.click(() => {
 
 // });
 
-
-
 let carts = $(`.add_to_cart`);
 console.log(carts);
 for (let i = 0; i < carts.length; i++) {
@@ -35,15 +33,14 @@ for (let i = 0; i < carts.length; i++) {
     console.log("ppppppp");
     cartNumbers();
   });
-  localStorage.getItem() 
+  localStorage.getItem();
 }
-let counter=0
-function cartNumbers(img,name,tag,price) {
+let counter = 0;
+function cartNumbers(img, name, tag, price) {
   console.log(product);
-  counter++
-  localStorage.setItem("counter", counter);}
-
-
+  counter++;
+  localStorage.setItem("counter", counter);
+}
 
 let products = [
   {
@@ -58,8 +55,7 @@ let products = [
     الملحقات:
     سوار بلون روز جولد مزين بأحجار سواروفسكي, 
     ضمان سنتين
-    `
-   ,
+    `,
     price: "621ريال",
     imge: "1.png",
   },
@@ -67,7 +63,7 @@ let products = [
   {
     name: "Kylemore",
     tag: " ساعة نسائية من كايلمور - فضي مع ذهبي",
-    detail:`سوار فضي مع ذهبي لامع من الفولاذ المقاوم للصدأ .<br>
+    detail: `سوار فضي مع ذهبي لامع من الفولاذ المقاوم للصدأ .<br>
     مادة الهيكل من الفولاذ المقاوم للصدأ مع زجاج كريستالي بحجم 28 ملم<br>
     يتميز بلون ميناء ابيض مزين بشعار كايلمور، كما أنه مقاوم للماء حتى 3 متر<br>
     حركة عقارب كوارتز ثلاثية  ويوجد بها مكان لتاريخ اليوم<br>
@@ -79,7 +75,7 @@ let products = [
   {
     name: "AVALIERI",
     tag: "ساعة نسائية من افاليري - ذهبي",
-    detail:`بسوار ذهبي من الفولاذ المقاوم للصدأ يعطي الساعة شكل انيق<br>
+    detail: `بسوار ذهبي من الفولاذ المقاوم للصدأ يعطي الساعة شكل انيق<br>
     تتميز بوجود سوار ليس مقاوم للصدأ  فقط بل يعطي إحساسًا مريحًا لمعصمك وشكلًا انيقًا على يدك .<br>
     وبشكل مناسب للجميع مصنوعة هذه الساعة من الفولاذ المقاوم للصدأ بحجم 28مم <br>
     وتمتاز بمقاومتها للماء حتى عمق 5متر لتحافظ على ساعتك وتبقيها محمية دائمًا<br>.
@@ -91,30 +87,28 @@ let products = [
     price: "388ريال",
     imge: "3.png",
   },
-
 ];
 // let counter=0
 // function cartNumbers(product) {
 //   console.log(product);
 //   counter++
 //   localStorage.setItem("counter", counter);
-  
-  // let productsNumbers = localStorage.getItem("cartNumbers");
 
-  // productsNumbers = parseInt(productsNumbers);
-  // if (productsNumbers) {
-    // localStorage.setItem("cartNumbers", productsNumbers + 1);
-  // } else {
-  //   localStorage.setItem("cartNumbers", 1);
-  // }
-  // setItems(product);
+// let productsNumbers = localStorage.getItem("cartNumbers");
+
+// productsNumbers = parseInt(productsNumbers);
+// if (productsNumbers) {
+// localStorage.setItem("cartNumbers", productsNumbers + 1);
+// } else {
+//   localStorage.setItem("cartNumbers", 1);
+// }
+// setItems(product);
 // }
 // const carts=$("shopping")
 // carts.click(()=>{
 //   cartNumbers()
 // })
 // localStorage.getItem()
-
 
 const detail_products = $(`#detail_products`);
 const fun1 = (i) => {
@@ -135,18 +129,20 @@ const fun1 = (i) => {
   $(`#detail_products`).show();
 };
 
-
-
 const all_products = $(`#all_products`);
 addTomain = () => {
   for (let i = 0; i < products.length; i++) {
     const elem = $(`<div id="x"  class="p-box"> </div>`);
     const elem22 = $(` <div id="img${i}" class="imge1C">
-    <img src="${products[i].imge}" id="${products[i].name}" onclick="fun1(${i})" class="AVALIERIC" />
+    <img src="${products[i].imge}" id="${
+      products[i].name
+    }" onclick="fun1(${i})" class="AVALIERIC" />
     <p class="p2imge_AVALIERIC">${products[i].name}</p>
     <p class="p3imge_AVALIERIC">${products[i].tag}</p>
       <p id="price${i}" class="price">${products[i].price}</p>
-      <a class="add_to_cart" href="#" onclick="cartNumbers(${products[i].imge +products[i].tag +products[i].price})">اضف لسلة التسوق</a>
+      <a class="add_to_cart" href="#" onclick="cartNumbers(${
+        products[i].imge + products[i].tag + products[i].price
+      })">اضف لسلة التسوق</a>
       </div>`);
 
     elem22.appendTo(elem);
