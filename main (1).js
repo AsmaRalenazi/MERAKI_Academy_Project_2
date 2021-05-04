@@ -19,11 +19,12 @@ homepage.click(() => {
   $(`#p2Contaner`).hide();
 });
 
-const homepage3 = $(`#homep3`);
-homepage3.click(() => {
-  $(`#p2Contaner`).show();
-  $(`#detail_products`).hide();
-});
+// const homepage3 = $(`#homep3`);
+// homepage3.click(() => {
+//   $(`#p2Contaner`).show();
+//   $(`#detail_products`).hide();
+
+// });
 
 
 

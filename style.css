@@ -368,7 +368,7 @@ span {
     margin-top:16%;
     margin-left: 17px;
     text-align: justify;
-
+text-align-last: end;
   
   }
   .name_whatch{
@@ -380,7 +380,7 @@ span {
   font-size: 29px;
   margin-top:10%;
   display: inline;
-  margin-left: 9%;
+  margin-left: 21%;
   position: absolute;
   
   }
@@ -390,7 +390,7 @@ span {
     font-weight: bold;
     font-size:30px;
     display: inline;
-    margin-left: 18%;
+    margin-left: 28%;
     position: fixed;
   }
   .priceC {
@@ -425,8 +425,23 @@ span {
     font-size: 30px;
     margin-bottom: 8%;
     margin-left: 15%;
+}
 
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* size---mobile
 |
@@ -578,174 +593,3 @@ V
     bottom: 5px;
     color: rgb(228, 80, 80);
   }
-
-
-
-
-
-
-
-
-  /* here page 2 layout */
-  .backgroungp2 {
-    background-color: rgb(201, 201, 201);
-  }
-
-  .logo2C {
-    margin-left: 82%;
-    width: 578%;
-    height: 100%;
-    float: left;
-    margin-top: -27%;
-  }
-
-  .p2container {
-    width: 100%;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-  }
-  .sbjectC {
-    font-size: 195%;
-    margin-left: 309%;
-    width: 100%;
-    text-align: center;
-    font-family: "Calibri";
-    color: rgb(192, 64, 64);
-  }
-  .homep2 {
-    display: flex;
-    flex-direction: row;
-    display: inline;
-    width: 101px;
-    height: 38px;
-    fill: currentcolor;
-  }
-
-  .shoppingC {
-    display: flex;
-    flex-direction: column;
-    display: inline;
-    width: 101px;
-    height: 38px;
-    fill: currentcolor;
-    position: absolute;
-  }
-
-  .underheaderp2C {
-    width: 100%;
-    height: 23%;
-    border-top: 2px solid;
-    text-align: center;
-    padding-top: 30px;
-    font-family: "Calibri";
-  }
-
-  .all_productsC {
-    justify-content: center;
-    display: flex;
-    text-align: justify;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-
-.AVALIERIC {
-  width: 219px;
-  height: 239px;
-  margin-bottom: 24px;
-}
-.p2imge_AVALIERIC {
-  color: #4d4d4d70;
-  font-size: 15px;
-  float: right;
-  padding-right: 10px;
-}
-.p3imge_AVALIERIC {
-  float: right;
-  color: black;
-  margin-right: 10px;
-  font-family: "Calibri";
-}
-.price {
-  color: rgb(212, 52, 52);
-  padding-left: 69%;
-}
-.p-box {
-  display: flex;
-  width: 247px;
-  height: 375px;
-  justify-content: center;
-  text-align: center;
-  flex-direction: row;
-  position: relative;
-  margin: 10px 30px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0px 0px 7px 1px rgb(218, 218, 218);
-}
-.add_to_cart {
-  position: absolute;
-  height: 32px;
-  justify-content: center;
-  font-family: "Calibri";
-  bottom: 6px;
-  border: solid rgb(129, 94, 255);
-  text-decoration: none;
-  color: rgb(129, 94, 255);
-  padding-left: 60px;
-  padding-right: 70px;
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 10px;
-  font-size: 14px;
-}
-.KylemoreC {
-  width: 219px;
-  height: 239px;
-  margin-bottom: 24px;
-}
-.p2imge_KylemoreC {
-  color: #4d4d4d70;
-  font-size: 15px;
-  float: right;
-  padding-right: 10px;
-}
-.p3imge_KylemoreC {
-  float: right;
-  color: black;
-  margin-right: 10px;
-  font-family: "Calibri";
-}
-
-.AVALIERI2C {
-  width: 219px;
-  height: 239px;
-  margin-bottom: 24px;
-}
-.Sara_MillerC {
-  width: 219px;
-  height: 239px;
-  margin-bottom: 24px;
-}
-.p3imge_Sara_Miller {
-  float: right;
-  color: black;
-  margin-right: 10px;
-  font-family: "Calibri";
-}
-
-.p2imge_Sara_Miller2C {
-  color: #4d4d4d70;
-  font-size: 18px;
-  float: right;
-  padding-right: 10px;
-}
-
-
-.btnHolderC {
-  text-align: center;
-}
